@@ -8,16 +8,16 @@ Assignment (Lecture-1)
     Output : 39
     Sample input : 4
     Output : 340
-    
     ```
 
 3. Write a python program to print this pattern:
     For n = 5:
-                *
-               ***
-              *****
-             *******
-            *********
-
+    ```
+        *
+       ***
+      *****
+     *******
+    *********
+    ```
 
 4. Solve all questions here: https://www.hackerrank.com/domains/python/py-introduction
