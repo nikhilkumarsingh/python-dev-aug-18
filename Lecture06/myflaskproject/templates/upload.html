@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Data</title>
+</head>
+
+<body>
+	<form action="/upload" method='POST' enctype='multipart/form-data'>
+		<label>Name: </label>
+		<input type="text" name="name">
+		<br>
+
+		<label>Age: </label>
+		<input type="number" name="age">
+		<br>
+
+		<label>CGPA: </label>
+		<input type="number" name="cgpa">
+		<br>
+
+		<label>Photo: </label>
+		<input type="file" name="photo">
+		<br>
+
+		<button type="submit">Sumbit</button>
+	</form>
+</body>
+</html>

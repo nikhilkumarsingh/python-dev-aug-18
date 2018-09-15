@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My flask project</title>
+	</head>
+
+	<body>
+		{% for task in tasks %}
+		<li> {{ task }} </li>
+		{% endfor %}
+
+		{% if show_time %}
+		{{ now }}
+		{% else %}
+		Not show time
+		{% endif %}
+	</body>
+</html>
